@@ -12,7 +12,7 @@ int main(void)
 int mi = 48;
 int a = 44;
 int b = 32;
-int c = 57
+int c = 57;
 while (mi < 57)
 {
 	putchar(mi);
