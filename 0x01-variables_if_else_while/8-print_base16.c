@@ -10,13 +10,14 @@
 int main(void)
 {
 int mi;
+int me;
 
 for (mi = 48 ; mi < 58 ; mi++)
 
 {
         putchar(mi);
 }
-for (int me = 17 ; me < 22 ; me++)
+for (me = 17 ; me < 22 ; me++)
 {
 	putchar(me);
 }
