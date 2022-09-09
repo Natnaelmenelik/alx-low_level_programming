@@ -1,4 +1,6 @@
 #include <time.h>
+#include <stdlib.h>
+#include <time.h>
 /* printing the stored number into +ve, -ve, or zero */
 
 /* betty style doc for function main goes there */
