@@ -15,7 +15,7 @@ for (mi = 'a' ; mi <= 'z' ; mi++)
 {
 for (me = 'A' ; me <= 'Z' ; me++)
 {
-	putchar(mi)putchar(me);
+	putchar(mi);putchar(me);
 }
 }
 putchar('\n');
