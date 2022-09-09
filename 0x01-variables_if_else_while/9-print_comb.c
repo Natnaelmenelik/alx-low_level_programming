@@ -13,13 +13,12 @@ int mi = 48;
 int a = 44;
 int b = 32;
 
-while (mi < 57)
+while (mi <= 57)
 {
 	putchar(mi);
 	putchar(a);
 	putchar(b);
 mi++;
 }
-putchar(57);
 return (0);
 }
