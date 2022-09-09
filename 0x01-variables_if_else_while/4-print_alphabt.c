@@ -10,9 +10,13 @@
 int main(void)
 {
 char mi;
-for (mi = 'a' ; mi <= 'z'; mi != 'e' && mi != 'q'  ; mi++)
+
+for (mi = 'a' ; mi <= 'z' ; mi++)
+{
+if(mi != 'e' && mi != 'q')
 {
 	putchar(mi);
+}
 }
 putchar('\n');
 return (0);
