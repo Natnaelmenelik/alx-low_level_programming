@@ -1,4 +1,3 @@
-nclude <stdlib.h>
 #include <time.h>
 /* printing the stored number into +ve, -ve, or zero */
 
