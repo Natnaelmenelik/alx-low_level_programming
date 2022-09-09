@@ -10,7 +10,7 @@
 int main(void)
 {
 char mi;
-if (mi != 'e' && mi != 'q')
+if (char mi != 'e' && char mi != 'q')
 {
 for (mi = 'a' ; mi <= 'z' ; mi++)
 {
