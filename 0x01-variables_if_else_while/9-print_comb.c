@@ -20,5 +20,6 @@ while (mi < 57)
 	putchar(b);
 mi++;
 }
+putchar(58);
 return (0);
 }
