@@ -1,6 +1,6 @@
-#include<time.h>
-#include<stdlib.h>
-#include<stdio.h>
+#include <time.h>
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * main - printing the stored number into +ve, -ve, or zero 
  * 
