@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-int mi == 48;
-int a == 44;
-int b == 32 
+int mi = 48;
+int a = 44;
+int b = 32;
 
 while (mi < 58)
 {
