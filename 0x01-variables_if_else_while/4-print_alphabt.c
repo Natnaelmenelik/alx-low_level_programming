@@ -13,7 +13,7 @@ char mi;
 
 for (mi = 'a' ; mi <= 'z' ; mi++)
 {
-if(mi != 'e' && mi != 'q')
+if (mi != 'e' && mi != 'q')
 {
 	putchar(mi);
 }
