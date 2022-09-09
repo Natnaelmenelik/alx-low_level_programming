@@ -9,12 +9,17 @@
  */
 int main(void)
 {
-	int mi;
+int mi;
 
-	for (mi = 48 ; mi < 66 ; mi++)
-	{
-		        putchar(mi);
-	}
-	putchar('\n');
-	return (0);
+for (mi = 48 ; mi < 58 ; mi++)
+
+{
+        putchar(mi);
+}
+for (int me = 17 ; me < 22 ; me++)
+{
+	putchar(me);
+}
+putchar('\n');
+return (0);
 }
