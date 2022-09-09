@@ -12,7 +12,7 @@ int main(void)
 int mi;
 for (mi = 0 ; mi < 10 ; mi++)
 {
-	printf(mi);
+	printf("%d", mi);
 }
 printf("\n");
 return (0);
