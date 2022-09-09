@@ -5,7 +5,7 @@
  * main - printing the stored number into +ve, -ve, or zero 
  * 
  * Description: using the main fuction
- * the program prints "Programming is positive, negative or zero"
+ * the program prints "Programming is positives, negative or zero"
  * Return: 0
  */
 int main(void)
