@@ -16,7 +16,7 @@ for (mi = 48 ; mi < 58 ; mi++)
 {
 	putchar(mi);
 }
-for (me = a ; me < f ; me++)
+for (me = 'a' ; me < 'f' ; me++)
 {
 	putchar(me);
 }
