@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * main - printing the stored number into +ve, -ve, or zero 
- * 
+ * main - printing the stored number into +ve, -ve, or zero
  * Description: using the main fuction
  * the program prints "Programming is positives, negative or zero"
  * Return: 0
