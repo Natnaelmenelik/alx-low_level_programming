@@ -18,7 +18,6 @@ while (mi <= 57)
 	putchar(mi);
 	putchar(a);
 	putchar(b);
-mi++;
 }
 return (0);
 }
