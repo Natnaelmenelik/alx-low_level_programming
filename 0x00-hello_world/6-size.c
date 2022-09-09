@@ -1,19 +1,24 @@
-include <stdio.h>
+#include <stdio.h>
 
 /**
- *  * main -print the string using printf function
+ *  * main -print the size of different data typesn
  *   *
  *    * using the main funvtion
- *     *this program prints "with proper grammar, but the outcome is a piece of art"
+ *     *this program prints "size of data types"
  *      *Return: 0
- *       */
+ */
 
-int main(void)
-{
-	printf("Size of a char");
-	 printf("Size of an int");
-	 printf("Size of a long int");
-         intf("Size of a long int"); 
-	 printf("Size of a float");
-	return (0);	
+int main() {
+	    int intType;
+	    float floatType;
+	    double doubleType;
+	    char charType;
+
+			     sizeof evaluates the size of a variable
+			     printf("Size of int: %zu bytes\n", sizeof(intType));
+			     printf("Size of float: %zu bytes\n", sizeof(floatType));
+			     printf("Size of double: %zu bytes\n", sizeof(doubleType));
+			     printf("Size of char: %zu byte\n", sizeof(charType));
+			                         
+			      return {0};
 }
