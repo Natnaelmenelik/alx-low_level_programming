@@ -16,8 +16,8 @@ for (c = 48 ; c <= 57 ; c++)
 	putchar(c);
 	if(c!= 57)
 	{
-		putchar(a);
-		putchar(b);
+		putchar(',');
+		putchar(' ');
 	}
 }
 putchar('\n');
