@@ -13,10 +13,11 @@ char mi;
 char me;
 for (mi = 'a' ; mi <= 'z' ; mi++)
 {
+	putchar(mi);
+}
 for (me = 'A' ; me <= 'Z' ; me++)
 {
-	putchar(mi);putchar(me);
-}
+	putchar(me);
 }
 putchar('\n');
 return (0);
