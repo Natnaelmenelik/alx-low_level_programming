@@ -9,17 +9,16 @@
  */
 int main(void)
 {
-int mi = 48;
-int a = 44;
-int b = 32;
-int c = 57;
-while (mi < 57)
+
+for (int c = 48 ; c <= 57 ; c++)
 {
-	putchar(mi);
-	putchar(a);
-	putchar(b);
-mi++;
+	putchar(c);
+	if(c!= 57)
+	{
+		putchar(a);
+		putchar(b);
+	}
 }
-putchar(c);
+putchar('\n');
 return (0);
 }
