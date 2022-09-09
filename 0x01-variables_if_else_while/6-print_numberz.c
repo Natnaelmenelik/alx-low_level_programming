@@ -11,7 +11,7 @@ int main(void)
 {
 int mi;
 
-for (mi = 0 ; mi < 10 ; mi++)
+for (mi = 48 ; mi < 58 ; mi++)
 {
 	putchar(mi);
 }
