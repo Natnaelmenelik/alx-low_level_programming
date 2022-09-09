@@ -1,6 +1,6 @@
 #include <time.h>
 #include <stdlib.h>
-#include <time.h>
+#include <stdio.h>
 /* printing the stored number into +ve, -ve, or zero */
 
 /* betty style doc for function main goes there */
@@ -15,11 +15,12 @@ int main(void)
 	{
 		printf("the number is positive \n");
 	}
-	else if(n=0)
+	else if (n=0)
 	{
 		 printf("the number is zero \n");
 	}
-	else{
+	else
+	{
 		 printf("the number is negative \n");
 	}
 	return (0);
