@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
- * _add - adds to integers
+ * add - adds to integers
+ * a@ - parameter
+ * b@ - parameter
+ *
  * Return: 0 or 1
  */
 
