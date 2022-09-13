@@ -31,7 +31,7 @@ void times_table(void)
 	else
 	_putchar('0' + rep / 10);
 	_putchar('0' + rep % 10);
-	}
+}
 
 	if (b < 9)
 {
@@ -42,5 +42,4 @@ void times_table(void)
 }
 	_putchar('\n');
 	a++;
-}
 }
