@@ -14,7 +14,7 @@ int d = c % 10;
 if (c >= 0)
 {
 	_putchar(d);
-	return (d)
+	return (d);
 }
 else
 {
