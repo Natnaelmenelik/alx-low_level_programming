@@ -3,12 +3,12 @@
 
 /**
  * abs - computes the absolute value
- *
- * Return 0
+ * @c : used as parameter
+ * Return: 0 or 1
  */
 
 int _abs(int c)
 {
 	int d = abs (c);
-	return (0);
+	return (d);
 }
