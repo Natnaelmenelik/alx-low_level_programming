@@ -2,7 +2,7 @@
 
 /**
  * print_sign - prints sign of a number
- * @c : used as parameter
+ * @n : used as parameter
  *
  * Return : 0
  */
@@ -16,7 +16,7 @@ if (n > 0)
 }
 else if (n == 0)
 {
-	_putchar(*"48");
+	return(0);
 	return (0);
 }
 else
