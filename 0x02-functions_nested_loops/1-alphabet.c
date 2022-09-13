@@ -10,11 +10,7 @@ void print_alphabet(void)
 	{
 		_putchar(c);
 	}
-}
 
-int main(void)
-{
-	print_alphabet();
 	_putchar(*"\n");
 	return (0);
 }
