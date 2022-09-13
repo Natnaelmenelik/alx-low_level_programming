@@ -7,19 +7,18 @@
  */
 
 void print_to_98(int n)
-	int e = 98;
 
 {
-	if (n > e)
+	if (n > 98)
 {
-	while (n > e)
+	while (n > 98)
 {
 	_putchar(n + '0');
 	_putchar(*",");
 	_putchar(*"32");
 	n--;
 }
-	else if (n == e)
+	else if (n == 98)
 {
 	_putchar(n + '0');
 }
@@ -27,7 +26,7 @@ void print_to_98(int n)
 {
 	while (n < 98)
 {
-	_putchar(n + '0';
+	_putchar(n + '0');
 	_putchar(*",");
 	_putchar(*"32");
 	n++;
