@@ -7,7 +7,7 @@
 
 void jack_bauer(void)
 {
-int sec;
+int sec = 0;
 int min = 0;
 
 while (sec <= 59)
@@ -15,7 +15,6 @@ while (sec <= 59)
 	_putchar(min + '0');
 	_putchar(*"58");
 	_putchar(sec + '0');
-	sec++;
 	min++;
 }
 	_putchar(*"\n");
