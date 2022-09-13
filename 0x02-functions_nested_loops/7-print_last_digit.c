@@ -19,9 +19,9 @@ if (c >= 0)
 else
 {
 	c = c * -1;
-	int d = c % 10;
+	int e = c % 10;
 
-	return (d);
+	return (e);
 	_putchar(*"\n");
 }
 }
