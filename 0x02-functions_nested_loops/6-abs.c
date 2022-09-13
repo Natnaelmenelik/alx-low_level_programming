@@ -1,5 +1,5 @@
 #include "main.h"
-#include <math.h>
+#include <stdio.h>
 
 /**
  * abs - computes the absolute value
