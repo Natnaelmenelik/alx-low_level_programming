@@ -2,8 +2,8 @@
 
 /**
  * add - adds to integers
- * a@ - parameter
- * b@ - parameter
+ * @a : parameter
+ * @b : parameter
  *
  * Return: 0 or 1
  */
