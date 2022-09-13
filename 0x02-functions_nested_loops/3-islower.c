@@ -8,19 +8,13 @@
  */
 int _islower(int c)
 {
-	char mina = m;
-	int a = 49;
-	int b = 48;
-
-	if (islower(mina))
+	if (islower(c))
 {
-	_putchar(a);
+	return(1);
 }
 else 
 {
-	 _putchar(b);
+	 return(0);
 }
-	_putchar(*"\n");
-	return (0);
 
 }
