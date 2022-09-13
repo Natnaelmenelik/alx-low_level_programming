@@ -8,12 +8,13 @@
 void jack_bauer(void)
 {
 int sec;
-int min;
 
 for (sec = 0; sec <= 59; sec++)
 {
+	int min = 0;
 	return (min);
-	_putchar("58");
-
+	_putchar(*"58");
+	return (sec)
+	min++;
 }
 }
