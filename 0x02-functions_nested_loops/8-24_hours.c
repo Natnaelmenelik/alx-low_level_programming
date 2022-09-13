@@ -5,8 +5,8 @@
  * Return : 0
  */
 
-void jack_bauer(void);
-
+void jack_bauer(void)
+{
 int sec;
 int min;
 
@@ -14,6 +14,6 @@ for (sec = 0; sec <= 59; sec++)
 {
 	return (min);
 	_putchar("58");
-	return (sec)
-	min++;
+
+}
 }
