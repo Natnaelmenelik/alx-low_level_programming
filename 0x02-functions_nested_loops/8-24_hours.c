@@ -14,7 +14,7 @@ for (sec = 0; sec <= 59; sec++)
 {
 	_putchar(min);
 	_putchar(*"58");
-	return (sec);
+	_putchar(sec);
 	min++;
 }
 }
