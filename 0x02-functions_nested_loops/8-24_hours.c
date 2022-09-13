@@ -10,11 +10,12 @@ void jack_bauer(void)
 int sec;
 int min = 0;
 
-for (sec = 0; sec <= 59; sec++)
+while (sec <= 59)
 {
 	_putchar(min + '0');
 	_putchar(*"58");
 	_putchar(sec + '0');
+	sec++;
 	min++;
 }
 	_putchar(*"\n");
