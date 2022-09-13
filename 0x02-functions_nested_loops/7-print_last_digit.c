@@ -13,14 +13,14 @@ int d = c % 10;
 
 if (c >= 0)
 {
-	return (d);
-	_putchar(*"\n");
+	_putchar(d);
+	return (d)
 }
 else
 {
 	d = d * -1;
+	_putchar(d);
 	return (d);
-	_putchar(*"\n");
 }
 }
 
