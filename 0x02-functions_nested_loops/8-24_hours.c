@@ -12,9 +12,9 @@ int min = 0;
 
 for (sec = 0; sec <= 59; sec++)
 {
-	_putchar(min);
+	_putchar(min + '0');
 	_putchar(*"58");
-	_putchar(sec);
+	_putchar(sec + '0');
 	min++;
 }
 }
