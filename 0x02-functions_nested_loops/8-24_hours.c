@@ -17,4 +17,5 @@ for (sec = 0; sec <= 59; sec++)
 	_putchar(sec + '0');
 	min++;
 }
+	_putchar(*"\n")
 }
