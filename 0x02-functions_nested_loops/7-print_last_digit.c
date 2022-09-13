@@ -16,9 +16,9 @@ if (c >= 0)
 	_putchar(d);
 	return (d + '0');
 }
-else if (c < 0)
+else
 {
-	d = d * -1;
+	d *= -1;
 	_putchar(d + '0');
 	return (d);
 }
