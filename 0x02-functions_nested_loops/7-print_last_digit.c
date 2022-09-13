@@ -13,8 +13,8 @@ int d = c % 10;
 
 if (c >= 0)
 {
-	_putchar(d);
-	return (d + '0');
+	_putchar(d + '0');
+	return (d);
 }
 else
 {
