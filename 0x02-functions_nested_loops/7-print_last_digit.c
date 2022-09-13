@@ -14,12 +14,12 @@ int d = c % 10;
 if (c >= 0)
 {
 	_putchar(d);
-	return (d);
+	return (d + '0');
 }
 else
 {
 	d = d * -1;
-	_putchar(d);
+	_putchar(d + '0');
 	return (d);
 }
 }
