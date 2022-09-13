@@ -7,7 +7,7 @@
  */
 
 void print_to_98(int n)
-	int e = 98
+	int e = 98;
 
 {
 	if (n > e)
