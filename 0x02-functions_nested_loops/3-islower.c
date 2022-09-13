@@ -4,7 +4,7 @@
 /**
  * _islower - checks whether the letter is lowercase or uppercase
  *
- * @c - used as parameter
+ * @c : used as parameter
  * Return: 0
  */
 int _islower(int c)
