@@ -5,6 +5,7 @@
 /**
  * print_to_98 - prints numbers to 1 - 98
  *
+ * @n : parameter
  * Return:0 or 1
  */
 
