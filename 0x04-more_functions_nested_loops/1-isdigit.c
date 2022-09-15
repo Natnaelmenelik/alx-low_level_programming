@@ -12,8 +12,6 @@
 
 int _isdigit(int c)
 {
-	for (c == 0; c < 10; c++)
-{
 	if (isdigit(c))
 {
 	return(1);
