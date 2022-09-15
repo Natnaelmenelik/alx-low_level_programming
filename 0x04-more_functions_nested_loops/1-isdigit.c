@@ -10,9 +10,7 @@
 
 int _isdigit(int c)
 {
-	char c = '0';
-
-	while (c < 10)
+	for (c = 0; c < 10; c++)
 {
 	if (isdigit(c))
 {
@@ -22,7 +20,5 @@ int _isdigit(int c)
 {
 	return(0);
 }
-	c++;
 }
-
 }
