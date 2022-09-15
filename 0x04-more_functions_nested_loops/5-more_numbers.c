@@ -20,13 +20,12 @@ void more_numbers(void)
 		n++;
 		_putchar(*"/n");
 	}
-	while (d < 4)
+	for (d = 0; d < 4 ; d++)
 	{
 		for (c = 0; c < 15; c++)
 		{
 			_putchar('n' + c);
 		}
-		d++;
 		_putchar(*"/n");
 	}
 }
