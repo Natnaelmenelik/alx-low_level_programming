@@ -11,7 +11,7 @@ void more_numbers(void)
 	int c = 0;
 	int d = 0;
 
-	while (n < 10)
+	/*while (n < 10)
 	{
 		for (c = 0; c < 15; c++)
 		{
@@ -19,8 +19,8 @@ void more_numbers(void)
 		}
 		n++;
 		_putchar(*"/n");
-	}
-	for (d = 0; d < 4 ; d++)
+	} */
+	for (d = 0; d < 10 ; d++)
 	{
 		for (c = 0; c < 15; c++)
 		{
