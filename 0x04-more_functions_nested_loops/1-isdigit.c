@@ -1,7 +1,5 @@
 #include "main.h"
-#include "stdlib.h"
-#include <ctype.h>
-#include <stdio.h>
+#include "stdlib.h">
 
 /**
  * _isdigit - checks a digit
@@ -12,13 +10,12 @@
 
 int _isdigit(int c)
 {
-	if (isdigit(c))
+	if (c >= 0 && c <= 9)
 {
 	return(1);
 }
 	else
 {
 	return(0);
-}
 }
 }
