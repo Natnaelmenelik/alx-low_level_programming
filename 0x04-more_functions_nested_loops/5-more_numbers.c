@@ -17,8 +17,8 @@ void more_numbers(void)
 		{
 			_putchar('n' + c);
 		}
-		_putchar(*"/n");
 		n++;
+		putchar(*"/n");
 	}
 	while (d < 4)
 	{
@@ -26,8 +26,8 @@ void more_numbers(void)
 		{
 			_putchar('n' + c);
 		}
-		_putchar(*"\n");
 		d++;
+		putchar(*"/n");
 	}
 }
 
