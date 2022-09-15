@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * mul - multiplies to integers
- * @a : digit one
- * @b : digit two
+ * mul - multiplies to integer
+ * @a : int parameters
+ * @b : second int parameters
  * Return:0
  */
 
