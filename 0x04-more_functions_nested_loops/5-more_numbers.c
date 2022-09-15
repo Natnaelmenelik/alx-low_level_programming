@@ -13,7 +13,7 @@ void more_numbers(void)
 
 	while (n < 10)
 	{
-		for (c = 0; c < 10; c++)
+		for (c = 0; c < 15; c++)
 		{
 			_putchar('n' + c);
 		}
@@ -22,7 +22,7 @@ void more_numbers(void)
 	}
 	while (d < 4)
 	{
-		for (c = 0; c < 4; c++)
+		for (c = 0; c < 15; c++)
 		{
 			_putchar('n' + c);
 		}
