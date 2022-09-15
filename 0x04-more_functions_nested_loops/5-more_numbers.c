@@ -10,7 +10,7 @@ void more_numbers(void)
 	int n = 0;
 	int c = 0;
 
-	while (n < 9)
+	while (n < 10)
 	{
 		for (c = 0; c < 15; c++)
 		{
