@@ -15,8 +15,8 @@ void more_numbers(void)
 		for (c = 0; c < 15; c++)
 		{
 			_putchar('n' + c);
+			_putchar(*"/n");
 		}
-		_putchar(*"/n");
 		n++;
 	}
 }
