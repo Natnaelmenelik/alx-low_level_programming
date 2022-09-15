@@ -10,6 +10,8 @@
 
 int _isdigit(int c)
 {
+	char c = '0';
+
 	while (c < 10)
 {
 	if (isdigit(c))
