@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdlib.h">
+#include "stdlib.h"
 
 /**
  * _isdigit - checks a digit
@@ -10,5 +10,5 @@
 
 int _isdigit(int c)
 {
-	return(c >= 48 && c <= 57));
+	return(c >= 0 && c <= 9);
 }
