@@ -18,10 +18,10 @@ void print_diagonal(int n)
 		}
 		_putchar(*"\\");
 
-		if (a == (n - 1))
+		/*if (a == (n - 1))
 		{
 			continue;
-		}
+		}*/
 		_putchar("\n");
 	}
 	else
