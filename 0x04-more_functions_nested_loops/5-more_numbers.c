@@ -7,12 +7,12 @@
 
 void more_numbers(void)
 {
-	int n = 0;
-	int c = 0;
+	char n, c;
+	int i = 0;
 
-	while (n < 10)
+	while (i < 10)
 	{
-		for (c = 0; c < 15; c++)
+		for (n = 0; n < 15; n++)
 		{
 			c = n;
 			if (n > 9)
@@ -27,7 +27,7 @@ void more_numbers(void)
 		}
 		
 		_putchar(*"\n");
-		n++;
+		i++;
 	}
 }
 
