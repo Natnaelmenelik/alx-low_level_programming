@@ -14,10 +14,11 @@ void print_square(int size)
 	{
 		for (len = 0; len < size; len++)
 		{
-			for (wid = 0; wid <= len; wid++)
+			for (wid = 0; wid <= (size - 1); wid++)
 			{
 				_putchar(*"#");
 			}
+			_putchar(*"#");
 		}
 	}
 	else
