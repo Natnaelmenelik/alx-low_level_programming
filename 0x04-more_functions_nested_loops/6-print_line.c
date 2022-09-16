@@ -2,6 +2,7 @@
 
 /**
  * print_line - prints a straight line
+ * @n : parameter
  * Return: 0
  */
 
@@ -13,7 +14,7 @@ void print_line(int n)
 	{
 		for (a = 0; a < n; a++)
 		{
-			_putchar("95");
+			_putchar(*"95");
 		}
 	}
 	else
