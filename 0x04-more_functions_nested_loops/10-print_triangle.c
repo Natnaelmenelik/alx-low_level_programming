@@ -1,8 +1,8 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_triangle - check for a digit
- * @size : integer type
+ * print_triangle - prints a triangle
+ * @size : parameter
  * Return:void
  */
 
@@ -15,18 +15,19 @@ void print_triangle(int size)
 		ii = 0;
 		while (ii < size - i)
 		{
-			_putchar(' ');
+			_putchar(*" ");
 			ii++;
 		}
 		ii = 0;
 		while (ii < i)
 		{
-			_putchar('#');
+			_putchar(*"#");
 			ii++;
 		}
 
-		_putchar('\n');
+		_putchar(*"\n");
 		i++;
 	}
 	if (i == 1)
-		_putchar('\n');
+		_putchar(*"\n");
+}
