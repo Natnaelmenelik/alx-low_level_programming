@@ -2,8 +2,7 @@
 
 /**
  * positive_or_negative - checks a number
- * @i - parameter
- * Return: 0 or 1
+ * Return: 0
  */
 
 int main(void)
