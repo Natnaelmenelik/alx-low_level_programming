@@ -22,15 +22,11 @@ void print_triangle(int size)
 			{
 				_putchar(*"#");
 			}
-			if (len ==  size)
+			if (len == size)
 			{
 				continue;
 			}
 			_putchar(*"\n");
 		}
-	}
-	else
-	{
-		_putchar(*"\n");
 	}
 }
