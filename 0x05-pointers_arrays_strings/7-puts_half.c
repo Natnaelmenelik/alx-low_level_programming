@@ -24,7 +24,10 @@ void puts_half(char *str)
 	}
 	else
 	{
-		_putchar(str[n]);
+		for (i = n; i < strlen(str); i++)
+		{
+			_putchar(str[n]);
+		}
 	}
 	_putchar(*"\n");
 }
