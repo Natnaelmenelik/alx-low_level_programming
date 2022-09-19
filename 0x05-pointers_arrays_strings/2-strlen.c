@@ -5,7 +5,6 @@
 /**
  * _strlen - returns length of a string
  * @s : parameter
- * 
  * Return: 0 or 1
  */
 
