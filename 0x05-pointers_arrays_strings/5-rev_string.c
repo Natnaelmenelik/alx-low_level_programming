@@ -17,9 +17,9 @@ void rev_string(char *s)
 	for(g = 0; g <numb/2; g++)
 	{
 		tmpry = s[g];
-		s[g]=strg[numb - 1 - g];
+		s[g]=s[numb - 1 - g];
 		s[numb - 1 - g] = tmpry;
 	}
 	for(g = 0; g < numb; g++)
-		putchar(s[g]);
+		_putchar(s[g]);
 }
