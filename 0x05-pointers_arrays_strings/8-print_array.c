@@ -10,9 +10,12 @@
 
 void print_array(int *a, int n)
 {
+	int i;
+	int array[] = a;
+
 	for (i = 0; i < n; i++)
 	{
-		printf(a[i]);
+		printf(array[i]);
 		printf(",");
 		printf(" ");
 	}
