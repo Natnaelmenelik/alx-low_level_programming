@@ -13,5 +13,5 @@ void rev_string(char *s)
 	int mina;
 
 	for(mina = strlen(s) - 1; mina >= 0; mina--)
-		_putchar(s[mina]);
+		_putchar(s);
 }
