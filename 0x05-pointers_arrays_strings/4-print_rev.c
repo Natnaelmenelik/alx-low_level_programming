@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
  * print_rev - prints a string in a reverse matter
@@ -11,5 +8,12 @@
 
 void print_rev(char *s)
 {
-	strrev(s);
+	int i;
+
+	while (s[i])
+		i++;
+
+	while (i--)
+		_putchar(s[i]);
+	_putchar(*"\n");
 }
