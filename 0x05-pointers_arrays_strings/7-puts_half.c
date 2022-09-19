@@ -17,7 +17,7 @@ void puts_half(char *str)
 
 	if (strlen(str) % 2 == 0)
 	{
-		while (strlen(str) != " ")
+		while (strlen(str) != "")
 		{
 			_putchar(str[half]);
 		}
