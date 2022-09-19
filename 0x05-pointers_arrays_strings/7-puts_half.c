@@ -9,7 +9,7 @@
 
 void puts_half(char *str)
 {
-	unsigned int n, half;
+	unsigned int n, i, half;
 
 	n = (strlen(str) - 1) / 2;
 
@@ -17,7 +17,7 @@ void puts_half(char *str)
 
 	if (strlen(str) % 2 == 0)
 	{
-		while (strlen(str) != "")
+		while (str != " ")
 		{
 			_putchar(str[half]);
 		}
