@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * print_rev - prints a string in a reverse matter
@@ -8,11 +10,8 @@
 
 void rev_string(char *s)
 {
-        int i = 0;
+	int mina;
 
-        while (s[i])
-                i++;
-
-        while (i--)
-                _putchar(s[i]);
+	for(mina = strlen(s) - 1; mina >= 0; mina--)
+		_putchar(s[mina]);
 }
