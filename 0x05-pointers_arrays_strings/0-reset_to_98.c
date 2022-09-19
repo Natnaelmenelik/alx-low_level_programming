@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - takes a pointer and updates its value to 98
- * @*n : parameter
+ * @n : parameter
  * Return: 0 or 1
  */
 
