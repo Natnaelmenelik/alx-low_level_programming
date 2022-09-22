@@ -4,8 +4,8 @@
 
 /**
  * _strcat - concatnates two strings
- * @dest : destination
- * @src : source
+ * @*dest : destination
+ * @*src : source
  * Return: 0 or 1
  */
 
