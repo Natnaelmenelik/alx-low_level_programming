@@ -10,7 +10,7 @@
 
 char *string_toupper(char *str)
 {
-	strupr(str);
+	toupper(str);
 	return (str);
 
 }
