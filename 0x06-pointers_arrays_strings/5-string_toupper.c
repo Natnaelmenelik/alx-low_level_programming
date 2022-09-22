@@ -1,23 +1,23 @@
-#include "main.h"
-#include <stdlib.h>
-#include <string.h>
+#include "holberton.h"
 
 /**
- * string_toupper - changes all lower case to upper
- * @str : string input
- * Return: 0 or 1
+ * string_toupper - Changes all lowercase letters
+ *                  of a string to uppercase.
+ * @str: The string to be changed.
+ *
+ * Return: A pointer to the changed string.
  */
-
 char *string_toupper(char *str)
 {
-	int i = 0;
+	int index = 0;
 
-	while (stri[i])
+	while (str[index])
 	{
-	_putchar(toupper(str[i]));
-	i++;
+		if (str[index] >= 'a' && str[index] <= 'z')
+			str[index] -= 32;
+
+		index++;
 	}
 
-	return (0);
-
+	return (str);
 }
