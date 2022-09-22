@@ -9,6 +9,6 @@
 char *string_toupper(char *str)
 {
 	strupr(str);
-	return (0);
+	return (str);
 
 }
