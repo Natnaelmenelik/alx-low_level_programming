@@ -8,9 +8,8 @@
 
 char *string_toupper(char *str)
 {
-	int i = 0;
-
-	_putchar(strupr(str[i]));
+	strupr(str);
+	_putchar(str);
 	return (0);
 
 }
