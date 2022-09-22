@@ -10,7 +10,14 @@
 
 char *string_toupper(char *str)
 {
-	toupper(str);
-	return (str);
+	int i = 0;
+
+	while (stri[i])
+	{
+	_putchar(toupper(str[i]));
+	i++;
+	}
+
+	return (0);
 
 }
