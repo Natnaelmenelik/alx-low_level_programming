@@ -8,7 +8,7 @@
 
 char *string_toupper(char *str)
 {
-	strupr(str);
-	return (str);
+	char m[100] = strupr(str);
+	return (m[100]);
 
 }
