@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
+#include <stdio.h>
 #include <string.h>
 
 /**
@@ -11,7 +11,6 @@
 char *string_toupper(char *str)
 {
 	strupr(str);
-	_putchar(str);
-	return (0);
+	return (str);
 
 }
