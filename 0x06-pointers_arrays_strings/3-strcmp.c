@@ -13,5 +13,5 @@ int _strcmp(char *s1, char *s2)
 {
 	int d = strcmp(s1, s2);
 
-	_putchar("%d", d);
+	return (d);
 }
