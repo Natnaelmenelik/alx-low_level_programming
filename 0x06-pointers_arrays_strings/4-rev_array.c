@@ -9,9 +9,9 @@
 
 void reverse_array(int *a, int n)
 {
-	int i = n;
+	int i;
 
-	while (i >= 0)
+	for (i = n; i >= 0; i--)
 	{
 		_putchar(a[i]);
 		_putchar(*",");
