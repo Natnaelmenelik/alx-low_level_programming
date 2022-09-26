@@ -15,13 +15,4 @@ char *_strpbrk(char *s, char *accept)
 	fnd = strpbrk(s, accept);
 
 	return (fnd);
-
-/*	if (fnd != NULL)
-	{
-		return (fnd);
-	}
-	else
-	{
-		_putchar('\n');
-	}*/
 }
