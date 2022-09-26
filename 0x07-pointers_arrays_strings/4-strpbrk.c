@@ -14,12 +14,14 @@ char *_strpbrk(char *s, char *accept)
 
 	fnd = strpbrk(s, accept);
 
-	if (fnd != NULL)
+	return (fnd);
+
+/*	if (fnd != NULL)
 	{
 		return (fnd);
 	}
 	else
 	{
 		_putchar('\n');
-	}
+	}*/
 }
