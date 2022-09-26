@@ -13,8 +13,6 @@ char *_strpbrk(char *s, char *accept)
 	char *fnd;
 
 	fnd = strpbk(s, accept);
-	if (fnd != NULL)
-	{
-		return (fnd);
-	}
+
+	return (fnd);
 }
