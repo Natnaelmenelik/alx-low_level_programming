@@ -7,7 +7,7 @@
  * *_memset - function that fills memory with a constant byte.
  * @s : string
  * @b : the value to be set
- * @b : number of bytes
+ * @n : number of bytes
  * Return: s
  */
 
