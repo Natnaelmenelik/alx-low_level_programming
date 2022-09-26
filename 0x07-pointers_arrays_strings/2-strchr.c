@@ -6,7 +6,7 @@
  * *_strchr - locates a character in string
  * @s : string
  * @c : character to be located
- * Return: 0 or 1
+ * Return: first occurance of cc or null
  */
 
 char *_strchr(char *s, char c)
