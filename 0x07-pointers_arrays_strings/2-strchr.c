@@ -10,8 +10,6 @@
 
 char *_strchr(char *s, char c)
 {
-	char mina;
-
-	mina = strchr(s, c);
-	return (mina);
+	strchr(s, c);
+	return (0);
 }
