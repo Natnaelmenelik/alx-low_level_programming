@@ -12,7 +12,7 @@
 char *_strchr(char *s, char c)
 {
 	int i;
-	char ptr[i] = s;
+	char ptr[100] = s;
 
 	for (i = 0; i < 100; i++)
 	{
