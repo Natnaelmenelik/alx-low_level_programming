@@ -10,9 +10,16 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	int *fnd;
+	char *fnd;
 
 	fnd = strpbk(s, accept);
 
-	return (fnd);
+	if (fnd != 0)
+	{
+		return (fnd);
+	}
+	else
+	{
+		_putchar('\n');
+	}
 }
