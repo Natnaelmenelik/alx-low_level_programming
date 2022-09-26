@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -12,8 +13,6 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
-
-	memset(s, 'b', i);
+	memset(s, 'b', n);
 	return (s);
 }
