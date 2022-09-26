@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <string.h>
 
 /**
@@ -11,5 +12,5 @@
 char *_strchr(char *s, char c)
 {
 	strchr(s, c);
-	return (0);
+	return (c);
 }
