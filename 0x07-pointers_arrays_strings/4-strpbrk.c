@@ -12,7 +12,7 @@ char *_strpbrk(char *s, char *accept)
 {
 	char *fnd;
 
-	fnd = strpbk(s, accept);
+	fnd = strpbrk(s, accept);
 
 	if (fnd != 0)
 	{
