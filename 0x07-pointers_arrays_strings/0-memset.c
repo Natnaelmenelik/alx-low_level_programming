@@ -11,8 +11,13 @@
  * Return: 0 or 1;
  */
 
-char *_memset(char *s, int b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	memset(s, 'b', n);
+	unsigned int i;
+
+	for (i = 0; n > 0; i++, n--)
+	{
+		memset(s, 'b', i);
+	}
 	return (s);
 }
