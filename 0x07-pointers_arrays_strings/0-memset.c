@@ -8,7 +8,7 @@
  * @s : string
  * @b : the value to be set
  * @b : number of bytes
- * Return: 0 or 1;
+ * Return: s
  */
 
 char *_memset(char *s, char b, unsigned int n)
