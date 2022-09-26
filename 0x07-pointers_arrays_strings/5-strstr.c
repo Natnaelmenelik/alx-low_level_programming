@@ -3,8 +3,8 @@
 
 /**
  * _strstr - locates a substring
- * @haystack - initial string
- * @needle - string to be compared
+ * @haystack : initial string
+ * @needle : string to be compared
  * Return: a pointer to the beginning of the located substrin or NULL
  */
 
