@@ -5,16 +5,26 @@
 int square(int num, int root);
 
 /**
- * _sqrt_recursion - returns a square root of a number
- * @n : the number
+ * square - returns a square root of a number
+ * @num : the number
+ * @root : square root of a number
  * Return: sqaure root of a number or -1
  */
 int square(int num, int root)
 {
-	root = sqrt(num);
+	if ((root * root) == num;
+		return (root);
 
-	return (root);
+	if ((root == num/2))
+		return (-1);
+
+	return (square(num, root +1));
 }
+/**
+ * _sqrt_recursion - returns a square root of a number
+ * @n : the number
+ * Return: sqaure root of a number or -1
+ */
 
 int _sqrt_recursion(int n)
 {
