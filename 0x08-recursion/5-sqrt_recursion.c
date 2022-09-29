@@ -12,14 +12,17 @@ int square(int num, int root);
  */
 int square(int num, int root)
 {
-	if ((root * root) == num;
+	if ((root * root) == num);
 		return (root);
 
-	if ((root == num/2))
+	if ((root == num / 2))
+	{
 		return (-1);
+	}
 
-	return (square(num, root +1));
+	return (square(num, root + 1));
 }
+
 /**
  * _sqrt_recursion - returns a square root of a number
  * @n : the number
