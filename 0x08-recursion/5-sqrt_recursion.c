@@ -12,6 +12,8 @@ int square(int num, int root);
 int square(int num, int root)
 {
 	root = sqrt(num);
+
+	return (root);
 }
 
 int _sqrt_recursion(int n)
@@ -26,6 +28,7 @@ int _sqrt_recursion(int n)
 	if (n == 1)
 	{
 		return (1);
+	}
 
 	return (square(n, root));
 }
