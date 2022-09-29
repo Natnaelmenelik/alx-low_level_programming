@@ -11,6 +11,7 @@
 
 int _pow_recursion(int x, int y)
 {
+	int s;
 
 	if (y < 0)
 	{
@@ -18,7 +19,7 @@ int _pow_recursion(int x, int y)
 	}
 	else if (y > 0)
 	{
-		int s = pow(x, y);
+		s = pow(x, y);
 	}
 	return (s);
 }
