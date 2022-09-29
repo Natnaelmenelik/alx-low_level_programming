@@ -12,7 +12,7 @@ int square(int num, int root);
  */
 int square(int num, int root)
 {
-	if ((root * root) == num);
+	if ((root * root) == num)
 		return (root);
 
 	if ((root == num / 2))
