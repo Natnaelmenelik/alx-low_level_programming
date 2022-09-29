@@ -1,18 +1,31 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include "math.h"
+#include <math.h>
+
+int sqrt(int num, int root);
 
 /**
  * _sqrt_recursion - returns a square root of a number
  * @n : the number
  * Return: sqaure root of a number or -1
  */
+int square(int num, int root)
+{
+	root = sqrt(num);
+}
 
 int _sqrt_recursion(int n)
 {
-	int x = n;
+	int root = 0;
 
-	x = sqrt(n);
-	return (x);
+	if (n < 0)
+	{
+		return (-1);
+	}
+
+	if (n == 1)
+	{
+		return (1);
+
+	return (square(n, root));
 }
