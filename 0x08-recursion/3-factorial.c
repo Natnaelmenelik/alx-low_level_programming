@@ -3,14 +3,19 @@
 /**
  * factorial - prints a factorial of a number
  * @n : the number
- * Return : factorial of a number
+ * Return : 0 or -1
  */
 
 int factorial(int n)
 {
 	int res = n;
 
-	if (n <= 1)
+	if (n < 0)
+	{
+		return (-1);
+	}
+
+	else if (n >= && n <= 1)
 	{
 		return (1);
 	}
