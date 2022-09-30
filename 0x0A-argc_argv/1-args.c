@@ -12,8 +12,14 @@ int main(int argc, char *argv[])
 {
 	int i;
 
-	for (i = 0; i < argc; i++)
-	printf("%s\n", argv[i]);
+	if (argc == 1)
+		printf("%d\n", argc - 1)
+	else
+	{
+		for (i = 0; *argc; i++, argv++)
+
+		printf("%d\n", i - 1);
+	}
 
 	return (0);
 }
