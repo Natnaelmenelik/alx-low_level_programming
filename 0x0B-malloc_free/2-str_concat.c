@@ -26,7 +26,7 @@ char *str_concat(char *s1, char *s2)
 */
 	for (i = 0; i < len; i++)
 	{
-		if (s1[i] == *"")
+		if (s1[i] == "")
 		{
 			return ("");
 		}
@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 
 	for (j = 0; j < len2; j++)
 	{
-		if (s2[j] == *"")
+		if (s2[j] == "")
 		{
 			return("");
 		}
@@ -42,5 +42,4 @@ char *str_concat(char *s1, char *s2)
 	strcat(s1, s2);
 
 	return (s1);
-	free(s);
 }
