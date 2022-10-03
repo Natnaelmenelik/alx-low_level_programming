@@ -19,13 +19,13 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	s = malloc(sizeof(char));
-	/*
+	s = malloc(sizeof(char) * (strlen(str) - 1));
+
 	if (s == NULL)
 	{
 		return (NULL);
 	}
-	*/
+
 	mina = strdup(str);
 	free(s);
 	return (mina);
