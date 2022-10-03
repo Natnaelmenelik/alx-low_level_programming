@@ -12,7 +12,6 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	char *s;
 	/*long unsigned*/ int len, len2, i, j;
 	len = strlen(s1);
 	len2 = strlen(s2);
@@ -23,7 +22,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-*/
+
 	for (i = 0; i < len; i++)
 	{
 		if (s1[i] == "")
@@ -39,6 +38,7 @@ char *str_concat(char *s1, char *s2)
 			return("");
 		}
 	}
+	*/
 	strcat(s1, s2);
 
 	return (s1);
