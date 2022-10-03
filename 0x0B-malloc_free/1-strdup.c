@@ -13,24 +13,18 @@ char *_strdup(char *str)
 {
 	char *mina;
 	char *s;
-	/*long unsigned *i;*/
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
 
-	s = malloc(sizeof(char));
+	s = malloc(sizeof(*char));
 	
 	if (s == NULL)
 	{
 		return (NULL);
 	}
-	
-	/*for (i = 0; i < strlen(str); i++)
-	{
-		s[i] = mina;
-	}*/
 
 	mina = strdup(str);
 	free(s);
