@@ -27,10 +27,10 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	
-	for (i = 0; i < strlen(str); i++)
+	/*for (i = 0; i < strlen(str); i++)
 	{
 		s[i] = mina;
-	}
+	}*/
 
 	mina = strdup(str);
 	free(s);
