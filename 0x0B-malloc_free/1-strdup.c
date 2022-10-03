@@ -6,7 +6,7 @@
 /**
  * _strdup - returns a pointer to a newly allocated space in memory
  * @str : string
- * Return: a pointer to the duplicated string. It returns NULL if insufficient memory was available
+ * Return: a pointer to the duplicated string or NULL
  */
 
 char *_strdup(char *str)
