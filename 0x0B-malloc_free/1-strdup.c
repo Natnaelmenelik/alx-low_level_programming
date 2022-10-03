@@ -11,7 +11,7 @@
 
 char *_strdup(char *str)
 {
-	char *mina;
+	char mina;
 	char *s;
 	long unsigned i;
 
