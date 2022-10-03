@@ -12,7 +12,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	char mina;
+	char *mina;
 	char *s;
 	/*long unsigned int len, len2, i, j;
 	len = strlen(s1);
@@ -41,7 +41,7 @@ char *str_concat(char *s1, char *s2)
 		}
 	}*/
 	mina = strcat(s1, s2);
-	putchar(mina);
+	putchar(*mina);
 	return (0);
 }
 
