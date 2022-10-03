@@ -40,8 +40,8 @@ char *str_concat(char *s1, char *s2)
 			return("");
 		}
 	}
-	mina = strcat(s1, s2);
-	putchar(*mina);
-	return (0);
+	mina = strcat(s2, s1);
+
+	return (s2);
 }
 
