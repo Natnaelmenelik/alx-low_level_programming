@@ -16,14 +16,14 @@ char *str_concat(char *s1, char *s2)
 	/*long unsigned*/ int len, len2, i, j;
 	len = strlen(s1);
 	len2 = strlen(s2);
-
+/*
 	s = malloc(sizeof(char));
 
 	if (s == NULL)
 	{
 		return (NULL);
 	}
-
+*/
 	for (i = 0; i < len; i++)
 	{
 		if (s1[i] == *"")
@@ -44,4 +44,3 @@ char *str_concat(char *s1, char *s2)
 	return (s1);
 	free(s);
 }
-
