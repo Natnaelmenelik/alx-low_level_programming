@@ -39,8 +39,8 @@ char *str_concat(char *s1, char *s2)
 			return("");
 		}
 	}
-	mina = strcat(s2, s1);
+	strcat(s1, s2);
 
-	return (s2);
+	return (s1);
 }
 
