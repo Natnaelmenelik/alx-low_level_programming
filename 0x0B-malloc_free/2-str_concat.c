@@ -14,11 +14,9 @@ char *str_concat(char *s1, char *s2)
 {
 	char *mina;
 	char *s;
-
-	if (s1 == NULL)
-	{
-		return ('\0');
-	}
+	int len, len2, i, j;
+	len = strlen(s1);
+	len2 = strlen(s2)
 
 	s = malloc(sizeof(char) - 1);
 
@@ -27,9 +25,23 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 
+	for (i = 0; i < len; i++)
+	{
+		if (s1[i] == NULL)
+		{
+			return ("");
+		}
+	}
+
+	for (j = 0; j < len; j++)
+	{
+		if (s2[j] == NULL)
+		{
+			return("");
+		}
+	}
 	mina = strcat(s1, s2);
 
-	free(s);
 	return (mina);
 }
 
