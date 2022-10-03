@@ -42,4 +42,5 @@ char *str_concat(char *s1, char *s2)
 	strcat(s1, s2);
 
 	puts(s1);
+	return (0);
 }
