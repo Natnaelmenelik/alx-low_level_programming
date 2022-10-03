@@ -24,10 +24,10 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-
+	/*
 	for (i = 0; i < len; i++)
 	{
-		if (s1[i] == NULL)
+		if (s1[i] == "")
 		{
 			return ("");
 		}
@@ -35,11 +35,11 @@ char *str_concat(char *s1, char *s2)
 
 	for (j = 0; j < len2; j++)
 	{
-		if (s2[j] == NULL)
+		if (s2[j] == "")
 		{
 			return("");
 		}
-	}
+	}*/
 	mina = strcat(s1, s2);
 
 	return (mina);
