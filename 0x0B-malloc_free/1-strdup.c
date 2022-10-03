@@ -13,7 +13,7 @@ char *_strdup(char *str)
 {
 	char *mina;
 	char *s;
-	//long unsigned *i;
+	/*long unsigned *i;*/
 
 	if (str == NULL)
 	{
