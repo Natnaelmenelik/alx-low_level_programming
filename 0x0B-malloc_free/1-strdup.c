@@ -32,7 +32,7 @@ char *_strdup(char *str)
 		s[i] = str;
 	}
 
-	mina = strdup(s[i]);
+	mina = strdup(str);
 	return (mina);
 }
 
