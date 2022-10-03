@@ -29,7 +29,7 @@ char *_strdup(char *str)
 	
 	for (i = 0; i < strlen(str); i++)
 	{
-		s[i] = mina;
+		s[i] == mina;
 	}
 
 	mina = strdup(str);
